@@ -84,8 +84,23 @@ input:focus {
     border-color: rgba(0, 0, 0, 10%);
     border-width: 1px;
     font-size: 14pt;
-    padding-left: 25px;
+    padding-left: 45px;
+    margin-right: 45px;
 }
+
+.icon {
+    position: absolute;
+    font-size: 12pt;
+    padding: 14px 0 0 17px;
+    color: rgba(0, 0, 0, 30%);
+}
+
+#micro {
+    right: 40px;
+    color: #4885ed;
+    font-size: 14pt;
+}
+
 
 #searchbar:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 20%);
